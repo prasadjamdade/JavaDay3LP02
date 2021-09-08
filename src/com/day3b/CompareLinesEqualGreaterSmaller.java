@@ -33,9 +33,9 @@ public class CompareLinesEqualGreaterSmaller {
         //.equals method is applicable only on String data types
         if (lengthOfLineOne.compareTo(lengthOfLineTwo) == 0)
             System.out.println("Both lines are equal in length.");
-        else if (lengthOfLineOne.compareTo(lengthOfLineTwo) < 0)
+        else if (lengthOfLineOne.compareTo(lengthOfLineTwo) > 0)
             //if lengthOfLineOne < lengthOfLineTwo, it returns negative number;
-            // if lengthOfLineOne > lengthOfLineTwo, it returns positive number
+            // if lengthOfLineOne > lengthOfLineTwo, it returns positive number;
         System.out.println("First line is greater than Second Line.");
         else
             System.out.println("Second line is greater than First Line.");
