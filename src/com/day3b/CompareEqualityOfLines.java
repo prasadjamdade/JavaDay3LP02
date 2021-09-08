@@ -16,7 +16,6 @@ public class CompareEqualityOfLines {
 
         System.out.println("===Please Enter Coordinates for Second Line.===\n" +
                             "Please Enter Coordinates for first point as X (Enter) Y (Enter)");
-        System.out.println("Please Enter Coordinates for first point as X (Enter) Y (Enter)");
         int pointX1Line2 = coordinateScan.nextInt();
         int pointY1Line2 = coordinateScan.nextInt();
         System.out.println("Please Enter Coordinates for second point as X (Enter) Y (Enter)");
